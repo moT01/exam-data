@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>C# Exam Data</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>Foundational C# with Microsoft Data</h1>
+    <h4 id="last-updated"></h4>
+
+    <div class="chart-wrap">
+      <h3 id="heading-1">Number of users who have linked their Microsoft username to their freeCodeCamp account:</h3>
+      <div id="chevron-1" class="chevron color-1">&#x25BC;</div>
+      <canvas id="linked-accounts-canvas"></canvas>
+    </div>
+
+    <div class="chart-wrap">
+      <h3 id="heading-2">Number of 'Foundational C# with Microsoft' certifications claimed:</h3>
+      <div id="chevron-2" class="chevron color-2">&#x25BC;</div>
+      <canvas id="certs-claimed-canvas"></canvas>
+    </div>
+
+    <div class="chart-wrap">
+      <h3 id="heading-3">Number of exams taken: </h3>
+      <div id="chevron-3" class="chevron color-3">&#x25BC;</div>
+      <canvas id="exam-data-canvas"></canvas>
+    </div>
+
+    <div class="chart-wrap">
+      <h3>Exam Scores</h3>
+      <div id="chevron-4" class="chevron color-4">&#x25BC;</div>
+      <canvas id="score-distribution-canvas"></canvas>
+    </div>
+
+    <div class="chart-wrap">
+      <h3 id="heading-5">Number of users who have taken an exam: </h3>
+      <div id="chevron-5" class="chevron color-5">&#x25BC;</div>
+      <canvas id="unique-users-canvas"></canvas>
+    </div>
+
+    <div class="chart-wrap">
+      <h3>Number of exams per user</h3>
+      <div id="chevron-6" class="chevron color-6">&#x25BC;</div>
+      <canvas id="exams-per-user-canvas"></canvas>
+    </div>
+
+    <div class="survey-chart-wrap">
+      <h3>Survey Responses</h3>
+      <div id="chevron-7" class="chevron color-7">&#x25BC;</div>
+      <div id="survey-2-wrap" class="survey-canvas-wrap">
+        <canvas id="survey-question-1-canvas"></canvas>
+      </div>
+      <div id="survey-1-wrap" class="survey-canvas-wrap">
+        <canvas id="survey-question-2-canvas"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script type="module" src="helpers.js"></script>
+  <script type="module" src="charts.js"></script>
+  <script type="module" src="index.js"></script>
+</body>
+
+</html>
