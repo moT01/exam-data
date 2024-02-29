@@ -42,10 +42,6 @@ document.getElementById(
   'heading-5'
 ).innerHTML += `<span class="color-3"> ${latest5.toLocaleString()}</span>`;
 
-document.getElementById(
-  'heading-5'
-).innerHTML += `<span class="color-3"> ${latest5.toLocaleString()}</span>`;
-
 const surveyObj = surveyResponses[Object.keys(surveyResponses)[0]];
 let surveysTaken = 0;
 for (let key in surveyObj) {
