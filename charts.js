@@ -305,7 +305,7 @@ new Chart(document.getElementById("score-distribution-canvas"), {
         callbacks: {
           title: (data) => {
             const n = parseFloat(data[0].label.replace("%", ""));
-            return n >= 70 ? `${n}% (passed)` : `${n}% (not passed)`;
+            return n >= 70 ? `${n}% Correct (passed)` : `${n}% Correct (not passed)`;
           },
         },
       },

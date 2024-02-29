@@ -31,6 +31,10 @@ document.getElementById(
   "heading-3"
 ).innerHTML += `<span class="color-3"> ${latest3.toLocaleString()}</span>`;
 
+document.getElementById(
+  "heading-4"
+).innerHTML += ` (<span class="color-4">${latest3.toLocaleString()} exams</span>)`;
+
 const keys5 = Object.keys(uniqueUserData);
 const latest5 = uniqueUserData[keys5[keys5.length - 1]].usersWhoCompletedAnExam;
 document.getElementById(
